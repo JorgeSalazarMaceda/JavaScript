@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 50px;
+  font-size: 36px;
+  color: #333;
+}
+
+input[type="text"] {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  margin: 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+button:hover{
+    background-color: #565656;
+}
+
+#result, #result-mcm {
+  margin-top: 50px;
+  font-size: 24px;
+  color: #333;
+}

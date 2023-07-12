@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta author="Jorge Salazar Maceda">
+    <link rel="stylesheet" href="conversorNumeracion.css">
+    <title>Conversor Numeración</title>
+</head>
+
+<body>
+  <h1>Convertidor de base de numeración</h1>
+  <form>
+    <label for="numeroIntroducido">Introduce un número:</label><br>
+    <input type="text" id="numeroIntroducido"><br>
+    <label for="baseOrigen">Selecciona la base de origen:</label><br>
+    <select id="baseOrigen">
+      <option value="2">Binario</option>
+      <option value="8">Octal</option>
+      <option value="10" selected>Decimal</option>
+      <option value="16">Hexadecimal</option>
+    </select><br>
+    <label for="baseDestino">Selecciona la base de destino:</label><br>
+    <select id="baseDestino">
+      <option value="2">Binario</option>
+      <option value="8">Octal</option>
+      <option value="10">Decimal</option>
+      <option value="16">Hexadecimal</option>
+    </select><br>
+    <button type="button" id="botonConvertir">Convertir</button>
+  </form>
+  <br>
+  <p>Resultado: <span id="resultado"></span></p>
+</body>
+</html>
+<script src="conversorNumeracion.js"></script>

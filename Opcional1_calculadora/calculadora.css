@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table {
+    font-size: large;
+    border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid black;
+  padding: 8px;
+}
+
+th {
+  background-color: lightgray;
+}
+
+td {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(122, 153, 163);
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: blue;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 12px 20px;
+  margin: 8px 0;
+}
